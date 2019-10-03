@@ -1,0 +1,86 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="350" height="212" view_box="0 0 350 212"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Thu, 03 Oct 2019 07:54:24</desc>
+
+<rect id="frame" x="0" y="0" width="350" height="212" fill="none" stroke="none" stroke-width="0"/>
+
+<!-- Association Monte -->
+<line x1="48" y1="152" x2="165" y2="152" stroke="#000000" stroke-width="2"/>
+<text x="92" y="169.0" fill="#000000" font-family="Verdana" font-size="12">1,N</text>
+<line x1="292" y1="152" x2="165" y2="152" stroke="#000000" stroke-width="2"/>
+<text x="216" y="169.0" fill="#000000" font-family="Verdana" font-size="12">1,N</text>
+<line x1="165" y1="51" x2="165" y2="152" stroke="#000000" stroke-width="2"/>
+<text x="170.0" y="110" fill="#000000" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-Monte">
+	<path d="M 197 127 a 14 14 90 0 1 14 14 V 152 h -92 V 141 a 14 14 90 0 1 14 -14" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+	<path d="M 211 152.0 v 11 a 14 14 90 0 1 -14 14 H 133 a 14 14 90 0 1 -14 -14 V 152.0 H 92" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+	<rect x="119" y="127" width="92" height="50" fill="none" rx="14" stroke="#000000" stroke-width="2"/>
+	<line x1="119" y1="152" x2="211" y2="152" stroke="#000000" stroke-width="1"/>
+	<text x="146" y="144.7" fill="#000000" font-family="Verdana" font-size="12">Monte</text>
+	<text x="126" y="169.8" fill="#000000" font-family="Verdana" font-size="12">numDossard</text>
+</g>
+
+<!-- Association Parent -->
+<path d="M292 152 C 249.333333333 101.0 249.333333333 67.3333333333 292 51" fill="none" stroke="#000000" stroke-width="2"/>
+<text x="267.0" y="93" fill="#000000" font-family="Verdana" font-size="12">0,N</text>
+<path d="M292 152 C 334.666666667 101.0 334.666666667 67.3333333333 292 51" fill="none" stroke="#000000" stroke-width="2"/>
+<text x="295.0" y="93" fill="#000000" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-Parent">
+	<path d="M 326 26 a 14 14 90 0 1 14 14 V 51 h -96 V 40 a 14 14 90 0 1 14 -14" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+	<path d="M 340 51.0 v 11 a 14 14 90 0 1 -14 14 H 258 a 14 14 90 0 1 -14 -14 V 51.0 H 96" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+	<rect x="244" y="26" width="96" height="50" fill="none" rx="14" stroke="#000000" stroke-width="2"/>
+	<line x1="244" y1="51" x2="340" y2="51" stroke="#000000" stroke-width="1"/>
+	<text x="272" y="43.7" fill="#000000" font-family="Verdana" font-size="12">Parent</text>
+	<text x="251" y="68.8" fill="#000000" font-family="Verdana" font-size="12">degreParente</text>
+</g>
+
+<!-- Entity Course -->
+<g id="entity-Course">
+	<g id="frame-Course">
+		<rect x="124" y="9" width="82" height="25" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+		<rect x="124" y="34.0" width="82" height="59" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+		<rect x="124" y="9" width="82" height="84" fill="none" stroke="#000000" stroke-width="2"/>
+		<line x1="124" y1="34" x2="206" y2="34" stroke="#000000" stroke-width="1"/>
+	</g>
+	<text x="143" y="26.7" fill="#000000" font-family="Verdana" font-size="12">Course</text>
+	<text x="129" y="51.8" fill="#000000" font-family="Verdana" font-size="12">codeCourse</text>
+	<line x1="129" y1="54" x2="200" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="129" y="68.8" fill="#000000" font-family="Verdana" font-size="12">titreCourse</text>
+	<text x="129" y="85.8" fill="#000000" font-family="Verdana" font-size="12">dotation</text>
+</g>
+
+<!-- Entity Jockey -->
+<g id="entity-Jockey">
+	<g id="frame-Jockey">
+		<rect x="9" y="110" width="78" height="25" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+		<rect x="9" y="135.0" width="78" height="59" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+		<rect x="9" y="110" width="78" height="84" fill="none" stroke="#000000" stroke-width="2"/>
+		<line x1="9" y1="135" x2="87" y2="135" stroke="#000000" stroke-width="1"/>
+	</g>
+	<text x="27" y="127.7" fill="#000000" font-family="Verdana" font-size="12">Jockey</text>
+	<text x="14" y="152.8" fill="#000000" font-family="Verdana" font-size="12">numJockey</text>
+	<line x1="14" y1="155" x2="82" y2="155" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="169.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="14" y="186.8" fill="#000000" font-family="Verdana" font-size="12">prénom</text>
+</g>
+
+<!-- Entity Cheval -->
+<g id="entity-Cheval">
+	<g id="frame-Cheval">
+		<rect x="243" y="101" width="98" height="25" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+		<rect x="243" y="126.0" width="98" height="77" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+		<rect x="243" y="101" width="98" height="102" fill="none" stroke="#000000" stroke-width="2"/>
+		<line x1="243" y1="126" x2="341" y2="126" stroke="#000000" stroke-width="1"/>
+	</g>
+	<text x="271" y="118.7" fill="#000000" font-family="Verdana" font-size="12">Cheval</text>
+	<text x="248" y="143.7" fill="#000000" font-family="Verdana" font-size="12">numCheval</text>
+	<line x1="248" y1="146" x2="317" y2="146" stroke="#000000" stroke-width="1"/>
+	<text x="248" y="160.8" fill="#000000" font-family="Verdana" font-size="12">nomCheval</text>
+	<text x="248" y="177.8" fill="#000000" font-family="Verdana" font-size="12">sexe</text>
+	<text x="248" y="194.8" fill="#000000" font-family="Verdana" font-size="12">dateNaissance</text>
+</g>
+</svg>
