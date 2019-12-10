@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF8"/>
+    <title>Formulaire de saisie d'informations bancaires</title>
+    <style type="text/css">
+        body {
+            background-color: #ffd;
+            font-family: Verdana, Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Formulaire de saisie d'informations bancaires</h1>
+<form method="POST" action="info_cb.php">
+    <table>
+        <tr>
+            <td>Prénom</td>
+            <td><input type="text" name="prenom"/></td>
+        </tr>
+        <tr>
+            <td>Nom</td>
+            <td><input type="text" name="nom"/></td>
+        </tr>
+        <tr>
+            <td>Numéro de carte bancaire</td>
+            <td><input type="text" name="CB" maxlength="16" size="15"/></td>
+        </tr>
+        <tr>
+            <td>Cryptogramme</td>
+            <td><input type="text" name="crypto" maxlength="3" size="3"/></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="reset" name="reset" value="Annuler"/>
+    <input type="submit" name="submit" value="Valider"/>
+
+</form>
+</body>
+</html>
